@@ -1,0 +1,41 @@
+$menu-collapsed-width: 80px;
+
+.logo {
+  height: 64px;
+  position: relative;
+  line-height: 64px;
+  padding-left: ($menu-collapsed-width - 32px) / 2;
+  box-shadow: 0 1px 9px -3px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  overflow: hidden;
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+  }
+
+  h1 {
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    margin: 0 0 0 12px;
+    font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+}
+
+.sider {
+  background: #FFFFFF;
+  min-height: 100vh;
+  // box-shadow: fade(#f90, 10%) 0 0 28px 0;
+  box-shadow: rgba(24, 144, 255, 0.1) 0 0 28px 0;
+  position: relative;
+  z-index: 10;
+
+  ul {
+    border: 0;
+  }
+
+}
